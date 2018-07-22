@@ -1,0 +1,26 @@
+{
+  "name": "simple-redux-seth-routing-landing-try",
+  "description": "",
+  "homepage": "https://stackblitz.com/edit/simple-redux-seth-routing-landing-try",
+  "dependencies": {
+    "react": "16.1.1",
+    "react-dom": "16.1.1",
+    "react-scripts": "1.0.10",
+    "rxjs": "5.5.8",
+    "redux": "4.0.0-beta.2",
+    "history": "4.7.2",
+    "material-ui": "0.20.0",
+    "react-redux": "5.0.7",
+    "redux-thunk": "2.2.0",
+    "redux-logger": "3.0.6",
+    "react-router-dom": "4.3.1"
+  },
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
