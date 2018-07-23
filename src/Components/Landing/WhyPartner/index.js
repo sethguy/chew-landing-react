@@ -3,15 +3,14 @@ import { render } from 'react-dom';
 import { connect } from 'react-redux'
 
 import { actionDispachConnector } from '../../../actions'
-import '../../../css/slides.css'
 import { Route } from 'react-router-dom'
 
-class LandingHomeComponet extends Component {
+class WhyPartnerComponet extends Component {
   constructor() {
     super();
 
     this.state = {
-      title: "LandingHome",
+      title: "WhyPartner",
 
     }
 
@@ -325,8 +324,8 @@ const mapStateToProps = (state, ownProps) => ({
   user: state.user
 })
 
-const LandingHome = connect(mapStateToProps, {
+const WhyPartner = connect(mapStateToProps, {
   actionDispachConnector
-})(LandingHomeComponet)
+})(WhyPartnerComponet)
 
-export default LandingHome
+export default WhyPartner
